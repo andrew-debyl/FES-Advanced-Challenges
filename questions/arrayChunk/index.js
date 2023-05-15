@@ -8,7 +8,7 @@
  */
 
 const arrayChunk = (array, size) => {
-  
+
 };
 
 module.exports = arrayChunk;
