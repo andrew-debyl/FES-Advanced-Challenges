@@ -18,7 +18,18 @@
  */
 
 const steps = (n) => {
-
+    for (row=0; row < n; row++) {
+        let step = ""
+        for (column=0; column < n; column++) {
+            if(column<=row) {
+                step+="#"
+            }
+            else {
+                step+=" "
+            }
+        }
+        console.log(step)
+    }
 };
 
 module.exports = steps;
